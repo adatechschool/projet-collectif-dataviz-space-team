@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+.single_info {
+    display: flex;
+    align-items: center;
+}
+
+
+.single_info sup {
+    vertical-align: text-top;
+    font-size: smaller;
+}
+ 
+.single_info p {
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 1;
+}
+
+#composition {
+    color: red;
+    word-spacing: 20px;
+}
+.single_info > :first-child {
+    font-size: large;
+    font-weight: 800;
+}

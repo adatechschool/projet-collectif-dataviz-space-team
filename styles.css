@@ -1,0 +1,100 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.pop:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    color: azure;
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+
+body {
+    background-image: url(images/ciel.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+    /*.systeme_solaire {*/
+    /*display: flex;*/
+    
+.soleil {
+    position: absolute;
+    width: 100px;
+    height: 100px ;
+    bottom: 600px;
+    transition: all;
+}
+
+
+#mercure {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 190px;
+    left: 430px;
+}
+
+#venus {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    bottom: 190px;
+    left: 470px;
+}
+
+#terre {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 190px;
+    left: 545px;
+}
+
+#mars {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 190px;
+    left: 655px;
+}
+
+#jupiter {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    bottom: 190px;
+    left: 750px;
+}
+
+#saturne {
+    position: absolute;
+    width: 260px;
+    height: 240px;
+    bottom: 190px;
+    left: 920px;
+}
+
+#uranus {
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    bottom: 190px;
+    left: 1190px;
+}
+
+#neptune {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 190px;
+    left: 1320px;
+}
