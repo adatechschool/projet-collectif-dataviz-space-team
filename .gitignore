@@ -1,7 +1,12 @@
+# Fichier du projet
+.DS_Store
 
-# Dossier du projet
+# Dossie du projet
 .vscode/
 Brouillon/
+# dossier de scraping pour les instances
+puppeter/ 
+
 # Fichiers de sauvegarde
 *~
 *.swp

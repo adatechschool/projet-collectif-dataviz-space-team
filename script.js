@@ -28,7 +28,7 @@ const buttonPress = pressButtonId => {
       numberIndex = 4;
       break;
     case "neptune":
-      numberIndex = 2;
+      numberIndex = 1;
       break;
     default:
       console.log("Cette id est non gérée");
@@ -77,7 +77,7 @@ const apiCall = async apiIndexArray => {
 };
 
 const scrapping = arrayApi => {
-  arrayApi.splice(4, 0, "Scrapping");
+  //arrayApi.splice(4, 0, "Scrapping");
   return arrayApi
 };
 
